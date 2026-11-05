@@ -6,6 +6,8 @@
 import datetime as dt
 import sys
 
+import numpy as np
+
 import kaynak
 import veri_deposu as vd
 
@@ -39,3 +41,7 @@ for p in parcalar:
         continue
     vd.birlestir(vd.kutudan_noktalar(tt, la, lo, s, hucreler), "nihai", kimlikler)
     print(p[0], "→", p[-1], flush=True)
+
+if "--dene" in sys.argv:  # PSL erişim denetimi (tek gün, ~30 KB)
+    tt, la, lo, s = kaynak.psl_indir(son_n, son_n)
+    print("PSL erişimi tamam:", tt[0], f"{float(np.nanmean(s)):.2f} °C ortalama")

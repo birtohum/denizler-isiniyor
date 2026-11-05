@@ -35,7 +35,7 @@ jobs:
 
       - name: Eksik günleri PSL'den tamamla (son 60 gün)
         working-directory: betikler
-        run: python bosluk_doldur.py --gun 60
+        run: python bosluk_doldur.py --gun 60 --dene
 
       - name: Site verisi
         working-directory: betikler
