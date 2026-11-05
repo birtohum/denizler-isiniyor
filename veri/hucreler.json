@@ -1,0 +1,412 @@
+[
+ {
+  "kimlik": "igneada",
+  "ad": "İğneada",
+  "deniz": "Karadeniz",
+  "enlem": 41.875,
+  "boylam": 27.99,
+  "hucre_enlem": 41.875,
+  "hucre_boylam": 28.125,
+  "uzaklik_km": 11.2
+ },
+ {
+  "kimlik": "kilyos",
+  "ad": "Kilyos",
+  "deniz": "Karadeniz",
+  "enlem": 41.25,
+  "boylam": 29.02,
+  "hucre_enlem": 41.375,
+  "hucre_boylam": 29.125,
+  "uzaklik_km": 16.4
+ },
+ {
+  "kimlik": "sile",
+  "ad": "Şile",
+  "deniz": "Karadeniz",
+  "enlem": 41.18,
+  "boylam": 29.61,
+  "hucre_enlem": 41.375,
+  "hucre_boylam": 29.625,
+  "uzaklik_km": 21.7
+ },
+ {
+  "kimlik": "karasu",
+  "ad": "Karasu",
+  "deniz": "Karadeniz",
+  "enlem": 41.1,
+  "boylam": 30.69,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 30.625,
+  "uzaklik_km": 6.1
+ },
+ {
+  "kimlik": "zonguldak",
+  "ad": "Zonguldak",
+  "deniz": "Karadeniz",
+  "enlem": 41.46,
+  "boylam": 31.79,
+  "hucre_enlem": 41.375,
+  "hucre_boylam": 31.625,
+  "uzaklik_km": 16.7
+ },
+ {
+  "kimlik": "amasra",
+  "ad": "Amasra",
+  "deniz": "Karadeniz",
+  "enlem": 41.75,
+  "boylam": 32.39,
+  "hucre_enlem": 41.875,
+  "hucre_boylam": 32.375,
+  "uzaklik_km": 14.0
+ },
+ {
+  "kimlik": "inebolu",
+  "ad": "İnebolu",
+  "deniz": "Karadeniz",
+  "enlem": 41.98,
+  "boylam": 33.76,
+  "hucre_enlem": 42.125,
+  "hucre_boylam": 33.875,
+  "uzaklik_km": 18.7
+ },
+ {
+  "kimlik": "sinop",
+  "ad": "Sinop",
+  "deniz": "Karadeniz",
+  "enlem": 42.03,
+  "boylam": 35.15,
+  "hucre_enlem": 42.125,
+  "hucre_boylam": 35.125,
+  "uzaklik_km": 10.8
+ },
+ {
+  "kimlik": "samsun",
+  "ad": "Samsun",
+  "deniz": "Karadeniz",
+  "enlem": 41.29,
+  "boylam": 36.33,
+  "hucre_enlem": 41.375,
+  "hucre_boylam": 36.375,
+  "uzaklik_km": 10.2
+ },
+ {
+  "kimlik": "unye",
+  "ad": "Ünye",
+  "deniz": "Karadeniz",
+  "enlem": 41.13,
+  "boylam": 37.29,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 37.375,
+  "uzaklik_km": 7.1
+ },
+ {
+  "kimlik": "ordu",
+  "ad": "Ordu",
+  "deniz": "Karadeniz",
+  "enlem": 40.98,
+  "boylam": 37.88,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 37.875,
+  "uzaklik_km": 16.1
+ },
+ {
+  "kimlik": "giresun",
+  "ad": "Giresun",
+  "deniz": "Karadeniz",
+  "enlem": 40.92,
+  "boylam": 38.39,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 38.375,
+  "uzaklik_km": 22.8
+ },
+ {
+  "kimlik": "trabzon",
+  "ad": "Trabzon",
+  "deniz": "Karadeniz",
+  "enlem": 41.005,
+  "boylam": 39.73,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 39.625,
+  "uzaklik_km": 16.0
+ },
+ {
+  "kimlik": "rize",
+  "ad": "Rize",
+  "deniz": "Karadeniz",
+  "enlem": 41.03,
+  "boylam": 40.52,
+  "hucre_enlem": 41.125,
+  "hucre_boylam": 40.625,
+  "uzaklik_km": 13.7
+ },
+ {
+  "kimlik": "hopa",
+  "ad": "Hopa",
+  "deniz": "Karadeniz",
+  "enlem": 41.4,
+  "boylam": 41.42,
+  "hucre_enlem": 41.375,
+  "hucre_boylam": 41.375,
+  "uzaklik_km": 4.7
+ },
+ {
+  "kimlik": "istanbul",
+  "ad": "İstanbul",
+  "deniz": "Marmara",
+  "enlem": 41.01,
+  "boylam": 28.98,
+  "hucre_enlem": 40.875,
+  "hucre_boylam": 28.875,
+  "uzaklik_km": 17.4
+ },
+ {
+  "kimlik": "tekirdag",
+  "ad": "Tekirdağ",
+  "deniz": "Marmara",
+  "enlem": 40.97,
+  "boylam": 27.51,
+  "hucre_enlem": 40.875,
+  "hucre_boylam": 27.625,
+  "uzaklik_km": 14.3
+ },
+ {
+  "kimlik": "yalova",
+  "ad": "Yalova",
+  "deniz": "Marmara",
+  "enlem": 40.66,
+  "boylam": 29.27,
+  "hucre_enlem": 40.625,
+  "hucre_boylam": 29.125,
+  "uzaklik_km": 12.8
+ },
+ {
+  "kimlik": "mudanya",
+  "ad": "Mudanya",
+  "deniz": "Marmara",
+  "enlem": 40.38,
+  "boylam": 28.88,
+  "hucre_enlem": 40.375,
+  "hucre_boylam": 28.875,
+  "uzaklik_km": 0.7
+ },
+ {
+  "kimlik": "erdek",
+  "ad": "Erdek",
+  "deniz": "Marmara",
+  "enlem": 40.4,
+  "boylam": 27.79,
+  "hucre_enlem": 40.375,
+  "hucre_boylam": 27.625,
+  "uzaklik_km": 14.2
+ },
+ {
+  "kimlik": "canakkale",
+  "ad": "Çanakkale",
+  "deniz": "Ege",
+  "enlem": 40.15,
+  "boylam": 26.4,
+  "hucre_enlem": 40.125,
+  "hucre_boylam": 26.125,
+  "uzaklik_km": 23.5
+ },
+ {
+  "kimlik": "gokceada",
+  "ad": "Gökçeada",
+  "deniz": "Ege",
+  "enlem": 40.19,
+  "boylam": 25.9,
+  "hucre_enlem": 40.125,
+  "hucre_boylam": 25.875,
+  "uzaklik_km": 7.5
+ },
+ {
+  "kimlik": "ayvalik",
+  "ad": "Ayvalık",
+  "deniz": "Ege",
+  "enlem": 39.31,
+  "boylam": 26.69,
+  "hucre_enlem": 39.375,
+  "hucre_boylam": 26.625,
+  "uzaklik_km": 9.1
+ },
+ {
+  "kimlik": "foca",
+  "ad": "Foça",
+  "deniz": "Ege",
+  "enlem": 38.67,
+  "boylam": 26.76,
+  "hucre_enlem": 38.625,
+  "hucre_boylam": 26.625,
+  "uzaklik_km": 12.7
+ },
+ {
+  "kimlik": "izmir",
+  "ad": "İzmir",
+  "deniz": "Ege",
+  "enlem": 38.42,
+  "boylam": 27.13,
+  "hucre_enlem": 38.375,
+  "hucre_boylam": 26.875,
+  "uzaklik_km": 22.8
+ },
+ {
+  "kimlik": "cesme",
+  "ad": "Çeşme",
+  "deniz": "Ege",
+  "enlem": 38.32,
+  "boylam": 26.3,
+  "hucre_enlem": 38.375,
+  "hucre_boylam": 26.375,
+  "uzaklik_km": 9.0
+ },
+ {
+  "kimlik": "kusadasi",
+  "ad": "Kuşadası",
+  "deniz": "Ege",
+  "enlem": 37.86,
+  "boylam": 27.26,
+  "hucre_enlem": 37.875,
+  "hucre_boylam": 27.125,
+  "uzaklik_km": 12.0
+ },
+ {
+  "kimlik": "didim",
+  "ad": "Didim",
+  "deniz": "Ege",
+  "enlem": 37.37,
+  "boylam": 27.27,
+  "hucre_enlem": 37.375,
+  "hucre_boylam": 27.375,
+  "uzaklik_km": 9.3
+ },
+ {
+  "kimlik": "bodrum",
+  "ad": "Bodrum",
+  "deniz": "Ege",
+  "enlem": 37.03,
+  "boylam": 27.43,
+  "hucre_enlem": 37.125,
+  "hucre_boylam": 27.375,
+  "uzaklik_km": 11.6
+ },
+ {
+  "kimlik": "datca",
+  "ad": "Datça",
+  "deniz": "Ege",
+  "enlem": 36.72,
+  "boylam": 27.69,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 27.625,
+  "uzaklik_km": 12.0
+ },
+ {
+  "kimlik": "marmaris",
+  "ad": "Marmaris",
+  "deniz": "Akdeniz",
+  "enlem": 36.85,
+  "boylam": 28.27,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 28.375,
+  "uzaklik_km": 26.7
+ },
+ {
+  "kimlik": "fethiye",
+  "ad": "Fethiye",
+  "deniz": "Akdeniz",
+  "enlem": 36.62,
+  "boylam": 29.1,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 28.875,
+  "uzaklik_km": 20.1
+ },
+ {
+  "kimlik": "kas",
+  "ad": "Kaş",
+  "deniz": "Akdeniz",
+  "enlem": 36.2,
+  "boylam": 29.64,
+  "hucre_enlem": 36.125,
+  "hucre_boylam": 29.625,
+  "uzaklik_km": 8.4
+ },
+ {
+  "kimlik": "kemer",
+  "ad": "Kemer",
+  "deniz": "Akdeniz",
+  "enlem": 36.6,
+  "boylam": 30.56,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 30.625,
+  "uzaklik_km": 6.4
+ },
+ {
+  "kimlik": "antalya",
+  "ad": "Antalya",
+  "deniz": "Akdeniz",
+  "enlem": 36.88,
+  "boylam": 30.7,
+  "hucre_enlem": 36.875,
+  "hucre_boylam": 30.625,
+  "uzaklik_km": 6.7
+ },
+ {
+  "kimlik": "alanya",
+  "ad": "Alanya",
+  "deniz": "Akdeniz",
+  "enlem": 36.54,
+  "boylam": 32.0,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 31.875,
+  "uzaklik_km": 14.6
+ },
+ {
+  "kimlik": "anamur",
+  "ad": "Anamur",
+  "deniz": "Akdeniz",
+  "enlem": 36.07,
+  "boylam": 32.84,
+  "hucre_enlem": 36.125,
+  "hucre_boylam": 32.875,
+  "uzaklik_km": 6.9
+ },
+ {
+  "kimlik": "mersin",
+  "ad": "Mersin",
+  "deniz": "Akdeniz",
+  "enlem": 36.8,
+  "boylam": 34.63,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 34.625,
+  "uzaklik_km": 19.5
+ },
+ {
+  "kimlik": "karatas",
+  "ad": "Karataş",
+  "deniz": "Akdeniz",
+  "enlem": 36.57,
+  "boylam": 35.38,
+  "hucre_enlem": 36.375,
+  "hucre_boylam": 35.375,
+  "uzaklik_km": 21.7
+ },
+ {
+  "kimlik": "iskenderun",
+  "ad": "İskenderun",
+  "deniz": "Akdeniz",
+  "enlem": 36.59,
+  "boylam": 36.17,
+  "hucre_enlem": 36.625,
+  "hucre_boylam": 36.125,
+  "uzaklik_km": 5.6
+ },
+ {
+  "kimlik": "samandag",
+  "ad": "Samandağ",
+  "deniz": "Akdeniz",
+  "enlem": 36.08,
+  "boylam": 35.93,
+  "hucre_enlem": 36.125,
+  "hucre_boylam": 35.875,
+  "uzaklik_km": 7.0
+ }
+]

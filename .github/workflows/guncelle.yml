@@ -1,0 +1,54 @@
+name: Deniz verisini güncelle
+
+on:
+  schedule:
+    - cron: "25 7 * * *"   # her gün 10:25 (TR)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guncelle
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıklar
+        run: pip install -q -r requirements.txt
+
+      - name: Testler
+        run: python -m pytest -q testler
+
+      - name: ERDDAP son 40 gün nihai + ön seri
+        working-directory: betikler
+        run: python guncelle.py
+
+      - name: Eksik günleri PSL'den tamamla (son 60 gün)
+        working-directory: betikler
+        run: python bosluk_doldur.py --gun 60
+
+      - name: Site verisi
+        working-directory: betikler
+        run: python hesapla.py
+
+      - name: Depoya yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri site/veri
+          if git diff --cached --quiet; then
+            echo "değişiklik yok"
+          else
+            git commit -q -m "Veri: $(TZ=Europe/Istanbul date '+%F %H:%M')"
+            git push
+          fi

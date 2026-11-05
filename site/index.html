@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denizler ısınıyor mu?</title>
+<meta name="description" content="Türkiye kıyılarında bugünkü deniz suyu sıcaklığı, 1981'den bu yana aynı günle karşılaştırma. NOAA OISST uydu verisi, her gün güncellenir.">
+<meta property="og:title" content="Denizler ısınıyor mu?">
+<meta property="og:description" content="Türkiye'nin 41 kıyı noktasında bugünkü deniz sıcaklığı ve 1982'den bu yana eğilim.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="ust">Türkiye kıyıları · uydu verisi · her gün güncellenir</p>
+    <h1>Denizler ısınıyor mu?</h1>
+    <p class="giris" id="giris">Yükleniyor…</p>
+  </header>
+
+  <section class="kahraman" id="kahraman" aria-live="polite"></section>
+
+  <section>
+    <h2 id="bugun-baslik">Bugün</h2>
+    <p class="aciklama" id="bugun-ozet"></p>
+    <figure class="harita">
+      <svg id="harita" role="img" aria-label="Türkiye kıyılarında bugünkü sıcaklık farkı haritası"></svg>
+      <div class="lejant" id="lejant"></div>
+      <figcaption>Nokta rengi: bugünkü deniz sıcaklığının bu tarihin 1991–2020 ortalamasından farkı. Bir noktaya dokunun.</figcaption>
+    </figure>
+  </section>
+
+  <section class="yer">
+    <label class="secici">
+      <span>Kıyı</span>
+      <select id="nokta-sec"></select>
+    </label>
+    <div id="kart" class="kart"></div>
+  </section>
+
+  <section>
+    <h2>Bu tarihte, her yıl</h2>
+    <p class="aciklama" id="g1-aciklama"></p>
+    <div class="grafik" id="g1"></div>
+  </section>
+
+  <section>
+    <h2>Bu yıl, gün gün</h2>
+    <p class="aciklama">Koyu çizgi bu yıl. Gri bant: 1991–2020'de o günlerin %80'inin düştüğü aralık; ince çizgi ortalama.</p>
+    <div class="grafik" id="g2"></div>
+  </section>
+
+  <section>
+    <h2>Yıllık ortalama</h2>
+    <p class="aciklama" id="g3-aciklama"></p>
+    <div class="grafik" id="g3"></div>
+  </section>
+
+  <section class="dogum">
+    <h2>Doğduğun yıl</h2>
+    <div class="satir">
+      <label class="secici"><span>Yıl</span><select id="dogum-yil"></select></label>
+      <label class="secici"><span>Ay</span><select id="dogum-ay"></select></label>
+    </div>
+    <p class="cumle" id="dogum-cumle"></p>
+  </section>
+
+  <section>
+    <h2>Dört deniz</h2>
+    <div class="tablo-kap"><table id="denizler"></table></div>
+    <p class="aciklama kucuk">Eğilim: yıllık ortalamalara düz çizgi. Parantezdeki aralık %95 güven aralığıdır; yıldan yıla benzerlik (öz ilinti) hesaba katılarak genişletildi.</p>
+  </section>
+
+  <section class="sinirlar">
+    <h2>Bu sayılar neyi söylemez?</h2>
+    <ul>
+      <li><b>Kumsal değil, 25 km'lik kare.</b> Veri 0,25° (yaklaşık 28 × 21 km) ızgarada. Her kasaba, ona en yakın deniz karesine bağlandı; kare kıyıdan 1–27 km uzakta olabilir (kartta yazıyor). Koy içi, liman ve sığ kumsal daha sıcak ya da soğuk olabilir.</li>
+      <li><b>Yüzey, uydudan.</b> OISST uydu (kızılötesi) ölçümlerini gemi, şamandıra ve Argo verisiyle birleştirir ve yaklaşık yüzeydeki suyun sıcaklığına ayarlar. Yüzdüğünüz 1–2 metredeki su, özellikle rüzgârsız yaz günlerinde, farklı olabilir.</li>
+      <li><b>Boşluklar dolduruldu.</b> Bulut olan günlerde uydu denizi görmez; eksik değerler istatistiksel yöntemle (optimum interpolasyon) komşu gün ve yerlerden tahmin edilir. Tek bir günün değeri bu yüzden yumuşatılmıştır.</li>
+      <li><b>Kıyı kareleri zordur.</b> Karaya yakın karelerde uydu ölçümü daha gürültülü, Marmara ve dar körfezler (İzmir, İzmit) ızgarada iyi temsil edilmez. İzmir noktası körfezin dışında, Urla açıklarındadır.</li>
+      <li><b>Son günler ön veri.</b> Son yaklaşık iki hafta NOAA'nın ön (NRT) serisidir; nihai seri gelince değerler birkaç onda bir derece değişebilir.</li>
+      <li><b>Eğilim bir ortalama.</b> 1982'den bu yana düz çizgi, ısınmanın hızlanıp yavaşladığını göstermez; aralık yalnız istatistiksel belirsizliği içerir, ölçüm sistemindeki değişimleri değil.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Kaynak: NOAA NCEI <a href="https://www.ncei.noaa.gov/products/optimum-interpolation-sst">OISST v2.1</a> günlük 0,25° (Huang vd., 2021), <a href="https://coastwatch.pfeg.noaa.gov/erddap/griddap/ncdcOisst21Agg.html">NOAA CoastWatch ERDDAP</a> üzerinden. Kıyı çizgisi: Natural Earth. Normal dönemi: 1991–2020, ±5 gün penceresi.</p>
+    <p id="guncelleme"></p>
+    <p><a href="https://github.com/birtohum/denizler-isiniyor">Kaynak kod ve veri</a> · Apache-2.0</p>
+  </footer>
+</main>
+<div class="ipucu" id="ipucu" role="tooltip" hidden></div>
+<script src="uygulama.js"></script>
+</body>
+</html>

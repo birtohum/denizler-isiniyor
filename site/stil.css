@@ -1,0 +1,130 @@
+:root {
+  --zemin: #fcfcfb;
+  --yuzey: #ffffff;
+  --cizgi: #e4e3df;
+  --izgara: #eeede9;
+  --metin: #0b0b0b;
+  --metin-2: #52514e;
+  --metin-3: #7a7974;
+  --vurgu: #1c5cab;
+  --kara-tr: #e7e5df;
+  --kara-diger: #f1f0ec;
+  --kara-kenar: #cfcdc6;
+  --bant: #e9e8e3;
+  --normal: #8a8984;
+  --soguk: #2a78d6;
+  --sicak: #d03b3b;
+  --notr: #d4d3ce;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --zemin: #141413;
+    --yuzey: #1a1a19;
+    --cizgi: #2e2e2b;
+    --izgara: #262624;
+    --metin: #f0efec;
+    --metin-2: #c3c2b7;
+    --metin-3: #92918a;
+    --vurgu: #6da7ec;
+    --kara-tr: #2c2c29;
+    --kara-diger: #222220;
+    --kara-kenar: #3d3d39;
+    --bant: #2b2b28;
+    --normal: #8d8c86;
+    --soguk: #3987e5;
+    --sicak: #e66767;
+    --notr: #4a4a46;
+  }
+}
+:root[data-theme="dark"] {
+  --zemin: #141413; --yuzey: #1a1a19; --cizgi: #2e2e2b; --izgara: #262624;
+  --metin: #f0efec; --metin-2: #c3c2b7; --metin-3: #92918a; --vurgu: #6da7ec;
+  --kara-tr: #2c2c29; --kara-diger: #222220; --kara-kenar: #3d3d39; --bant: #2b2b28;
+  --normal: #8d8c86; --soguk: #3987e5; --sicak: #e66767; --notr: #4a4a46;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--zemin);
+  color: var(--metin);
+  font: 16px/1.55 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-feature-settings: "tnum" 1;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+h1, h2, .buyuk { font-family: "Inter Tight", Inter, system-ui, sans-serif; letter-spacing: -0.01em; }
+h1 { font-size: clamp(34px, 8vw, 52px); line-height: 1.05; margin: 6px 0 12px; font-weight: 700; }
+h2 { font-size: 22px; margin: 0 0 6px; font-weight: 600; }
+section { margin-top: 44px; }
+a { color: var(--vurgu); }
+.ust { margin: 0; color: var(--metin-3); font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; }
+.giris { font-size: 18px; color: var(--metin-2); margin: 0; max-width: 620px; }
+.aciklama { color: var(--metin-2); margin: 0 0 14px; }
+.kucuk { font-size: 14px; margin-top: 10px; }
+
+.kahraman { margin-top: 28px; padding: 22px 0 4px; border-top: 1px solid var(--cizgi); }
+.kahraman .buyuk { font-size: clamp(56px, 16vw, 92px); font-weight: 700; line-height: 1; color: var(--sicak); }
+.kahraman .buyuk.soguk { color: var(--soguk); }
+.kahraman p { margin: 10px 0 0; font-size: 18px; max-width: 600px; }
+.kahraman .alt { font-size: 14px; color: var(--metin-3); }
+
+.harita { margin: 0; }
+.harita svg { width: 100%; height: auto; display: block; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 8px; }
+.harita figcaption { font-size: 13px; color: var(--metin-3); margin-top: 8px; }
+.harita .nokta { cursor: pointer; }
+.harita .nokta circle { stroke: var(--yuzey); stroke-width: 2; }
+.harita .nokta.secili circle { stroke: var(--metin); stroke-width: 2.5; }
+.lejant { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--metin-2); margin-top: 10px; flex-wrap: wrap; }
+.lejant .serit { height: 10px; width: 180px; border-radius: 5px; }
+
+.secici { display: inline-flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--metin-3); }
+select {
+  font: 500 17px Inter, system-ui, sans-serif; color: var(--metin);
+  background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 8px;
+  padding: 10px 12px; min-width: 200px;
+}
+.satir { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.kart { margin-top: 16px; padding: 20px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 10px; }
+.kart .ad { font-size: 15px; color: var(--metin-3); margin: 0; }
+.kart .derece { font-family: "Inter Tight", Inter, sans-serif; font-size: 60px; font-weight: 700; line-height: 1.05; margin: 2px 0 4px; }
+.kart .fark { font-size: 19px; margin: 0 0 14px; font-weight: 500; }
+.kart dl { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 0; padding-top: 14px; border-top: 1px solid var(--cizgi); }
+.kart dl div { display: flex; justify-content: space-between; gap: 12px; }
+.kart dt { color: var(--metin-2); }
+.kart dd { margin: 0; font-weight: 600; text-align: right; }
+.kart .not { font-size: 13px; color: var(--metin-3); margin: 14px 0 0; }
+.sicak-m { color: var(--sicak); }
+.soguk-m { color: var(--soguk); }
+
+.grafik svg { width: 100%; height: auto; display: block; overflow: visible; }
+.grafik text { fill: var(--metin-3); font-size: 11px; }
+.grafik .eksen { stroke: var(--cizgi); }
+.grafik .izgara { stroke: var(--izgara); }
+
+.cumle { font-size: 20px; line-height: 1.45; margin: 16px 0 0; max-width: 620px; }
+.cumle b { font-family: "Inter Tight", Inter, sans-serif; }
+
+.tablo-kap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--cizgi); white-space: nowrap; }
+th { font-weight: 500; color: var(--metin-3); font-size: 13px; }
+td.sayi, th.sayi { text-align: right; }
+
+.sinirlar ul { padding-left: 18px; margin: 10px 0 0; }
+.sinirlar li { margin-bottom: 10px; color: var(--metin-2); }
+.sinirlar b { color: var(--metin); font-weight: 600; }
+
+footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--cizgi); font-size: 13px; color: var(--metin-3); }
+footer p { margin: 0 0 6px; }
+
+.ipucu {
+  position: fixed; pointer-events: none; z-index: 10;
+  background: var(--yuzey); color: var(--metin); border: 1px solid var(--cizgi);
+  border-radius: 6px; padding: 6px 9px; font-size: 13px; box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  white-space: nowrap;
+}
+@media (min-width: 640px) {
+  .kart dl { grid-template-columns: 1fr 1fr; column-gap: 28px; }
+}
