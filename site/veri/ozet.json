@@ -1,13 +1,13 @@
 {
-"guncelleme": "2026-11-06T08:28Z",
-"son_tarih": "2026-11-04",
+"guncelleme": "2026-11-07T08:18Z",
+"son_tarih": "2026-11-05",
 "son_kaynak": "on",
 "ilk_tarih": "1981-09-01",
 "normal_donemi": "1991–2020",
 "tum_kiyi": {
 "nokta_sayisi": 41,
-"anomali": 0.52,
-"normalden_sicak": 34,
+"anomali": 0.44,
+"normalden_sicak": 31,
 "egilim": {
 "egim": 0.45,
 "alt": 0.36,
@@ -68,7 +68,7 @@
 "denizler": {
 "Karadeniz": {
 "nokta_sayisi": 15,
-"anomali": 0.88,
+"anomali": 0.79,
 "normalden_sicak": 15,
 "egilim": {
 "egim": 0.53,
@@ -129,8 +129,8 @@
 },
 "Marmara": {
 "nokta_sayisi": 5,
-"anomali": 1.03,
-"normalden_sicak": 5,
+"anomali": 0.46,
+"normalden_sicak": 3,
 "egilim": {
 "egim": 0.5,
 "alt": 0.38,
@@ -190,8 +190,8 @@
 },
 "Ege": {
 "nokta_sayisi": 10,
-"anomali": 0.2,
-"normalden_sicak": 7,
+"anomali": 0.21,
+"normalden_sicak": 6,
 "egilim": {
 "egim": 0.37,
 "alt": 0.29,
@@ -251,7 +251,7 @@
 },
 "Akdeniz": {
 "nokta_sayisi": 11,
-"anomali": 0.09,
+"anomali": 0.15,
 "normalden_sicak": 7,
 "egilim": {
 "egim": 0.38,
@@ -322,20 +322,20 @@
 "hucre_boylam": 28.125,
 "uzaklik_km": 11.2,
 "hucre_yon": "doğu",
-"bugun": 17.28,
-"normal": 16.08,
-"anomali": 1.2,
-"normal_p10": 14.36,
-"normal_p90": 17.99,
-"sira": 9,
+"bugun": 16.73,
+"normal": 15.95,
+"anomali": 0.78,
+"normal_p10": 14.28,
+"normal_p90": 17.81,
+"sira": 13,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.46
+"deger": 19.43
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 12.35
+"deger": 12.32
 },
 "egilim": {
 "egim": 0.5,
@@ -358,20 +358,20 @@
 "hucre_boylam": 29.125,
 "uzaklik_km": 16.4,
 "hucre_yon": "kuzeydoğu",
-"bugun": 17.06,
-"normal": 16.29,
-"anomali": 0.77,
-"normal_p10": 14.56,
-"normal_p90": 18.13,
-"sira": 15,
+"bugun": 16.57,
+"normal": 16.17,
+"anomali": 0.4,
+"normal_p10": 14.48,
+"normal_p90": 17.97,
+"sira": 17,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.78
+"deger": 19.74
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 12.96
+"deger": 12.81
 },
 "egilim": {
 "egim": 0.51,
@@ -394,20 +394,20 @@
 "hucre_boylam": 29.625,
 "uzaklik_km": 21.7,
 "hucre_yon": "kuzey",
-"bugun": 17.1,
-"normal": 16.38,
-"anomali": 0.72,
-"normal_p10": 14.64,
-"normal_p90": 18.06,
-"sira": 13,
+"bugun": 16.74,
+"normal": 16.25,
+"anomali": 0.49,
+"normal_p10": 14.51,
+"normal_p90": 17.95,
+"sira": 16,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2023,
-"deger": 19.63
+"yil": 2020,
+"deger": 19.53
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 13.23
+"deger": 13.06
 },
 "egilim": {
 "egim": 0.51,
@@ -430,20 +430,20 @@
 "hucre_boylam": 30.625,
 "uzaklik_km": 6.1,
 "hucre_yon": "kuzeybatı",
-"bugun": 17.55,
-"normal": 16.86,
-"anomali": 0.69,
-"normal_p10": 15.38,
-"normal_p90": 18.37,
-"sira": 13,
+"bugun": 17.49,
+"normal": 16.72,
+"anomali": 0.77,
+"normal_p10": 15.23,
+"normal_p90": 18.25,
+"sira": 10,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2023,
-"deger": 19.78
+"yil": 2012,
+"deger": 19.54
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 13.87
+"deger": 13.72
 },
 "egilim": {
 "egim": 0.5,
@@ -466,20 +466,20 @@
 "hucre_boylam": 31.625,
 "uzaklik_km": 16.7,
 "hucre_yon": "güneybatı",
-"bugun": 17.1,
-"normal": 16.79,
-"anomali": 0.31,
-"normal_p10": 15.09,
-"normal_p90": 18.51,
-"sira": 17,
+"bugun": 17.24,
+"normal": 16.67,
+"anomali": 0.57,
+"normal_p10": 15.04,
+"normal_p90": 18.47,
+"sira": 16,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.68
+"deger": 19.45
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 13.4
+"deger": 13.34
 },
 "egilim": {
 "egim": 0.5,
@@ -502,20 +502,20 @@
 "hucre_boylam": 32.375,
 "uzaklik_km": 14.0,
 "hucre_yon": "kuzey",
-"bugun": 17.48,
-"normal": 16.69,
-"anomali": 0.79,
-"normal_p10": 14.99,
-"normal_p90": 18.44,
-"sira": 13,
+"bugun": 17.39,
+"normal": 16.57,
+"anomali": 0.82,
+"normal_p10": 14.93,
+"normal_p90": 18.39,
+"sira": 10,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2023,
-"deger": 19.7
+"yil": 2012,
+"deger": 19.43
 },
 "en_soguk": {
-"yil": 1997,
-"deger": 13.86
+"yil": 1988,
+"deger": 13.95
 },
 "egilim": {
 "egim": 0.49,
@@ -538,20 +538,20 @@
 "hucre_boylam": 33.875,
 "uzaklik_km": 18.7,
 "hucre_yon": "kuzeydoğu",
-"bugun": 17.76,
-"normal": 16.72,
-"anomali": 1.04,
-"normal_p10": 15.16,
-"normal_p90": 18.34,
+"bugun": 17.67,
+"normal": 16.6,
+"anomali": 1.07,
+"normal_p10": 15.15,
+"normal_p90": 18.15,
 "sira": 8,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.8
+"deger": 19.59
 },
 "en_soguk": {
 "yil": 1997,
-"deger": 13.39
+"deger": 13.34
 },
 "egilim": {
 "egim": 0.51,
@@ -574,20 +574,20 @@
 "hucre_boylam": 35.125,
 "uzaklik_km": 10.8,
 "hucre_yon": "kuzey",
-"bugun": 17.58,
-"normal": 16.75,
-"anomali": 0.83,
-"normal_p10": 15.35,
-"normal_p90": 18.23,
-"sira": 11,
+"bugun": 17.5,
+"normal": 16.63,
+"anomali": 0.87,
+"normal_p10": 15.16,
+"normal_p90": 18.02,
+"sira": 12,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 19.63
+"deger": 19.41
 },
 "en_soguk": {
 "yil": 1997,
-"deger": 14.11
+"deger": 13.18
 },
 "egilim": {
 "egim": 0.56,
@@ -610,20 +610,20 @@
 "hucre_boylam": 36.375,
 "uzaklik_km": 10.2,
 "hucre_yon": "kuzey",
-"bugun": 18.01,
-"normal": 17.01,
-"anomali": 1.0,
-"normal_p10": 15.64,
-"normal_p90": 18.58,
-"sira": 8,
+"bugun": 17.86,
+"normal": 16.89,
+"anomali": 0.97,
+"normal_p10": 15.46,
+"normal_p90": 18.35,
+"sira": 9,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 19.49
+"deger": 19.47
 },
 "en_soguk": {
 "yil": 1984,
-"deger": 14.54
+"deger": 13.02
 },
 "egilim": {
 "egim": 0.57,
@@ -646,20 +646,20 @@
 "hucre_boylam": 37.375,
 "uzaklik_km": 7.1,
 "hucre_yon": "doğu",
-"bugun": 18.04,
-"normal": 17.2,
-"anomali": 0.84,
-"normal_p10": 15.64,
-"normal_p90": 18.93,
-"sira": 9,
+"bugun": 17.94,
+"normal": 17.07,
+"anomali": 0.87,
+"normal_p10": 15.53,
+"normal_p90": 18.71,
+"sira": 8,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 19.73
+"deger": 19.71
 },
 "en_soguk": {
 "yil": 1996,
-"deger": 15.27
+"deger": 15.16
 },
 "egilim": {
 "egim": 0.55,
@@ -682,20 +682,20 @@
 "hucre_boylam": 37.875,
 "uzaklik_km": 16.1,
 "hucre_yon": "kuzey",
-"bugun": 18.05,
-"normal": 17.28,
-"anomali": 0.77,
-"normal_p10": 15.71,
-"normal_p90": 18.94,
+"bugun": 17.9,
+"normal": 17.15,
+"anomali": 0.75,
+"normal_p10": 15.5,
+"normal_p90": 18.71,
 "sira": 11,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 20.08
+"deger": 20.03
 },
 "en_soguk": {
-"yil": 1996,
-"deger": 15.4
+"yil": 1997,
+"deger": 15.21
 },
 "egilim": {
 "egim": 0.55,
@@ -718,20 +718,20 @@
 "hucre_boylam": 38.375,
 "uzaklik_km": 22.8,
 "hucre_yon": "kuzey",
-"bugun": 18.21,
-"normal": 17.38,
-"anomali": 0.83,
-"normal_p10": 15.78,
-"normal_p90": 19.06,
-"sira": 10,
+"bugun": 17.89,
+"normal": 17.25,
+"anomali": 0.64,
+"normal_p10": 15.65,
+"normal_p90": 18.85,
+"sira": 14,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 20.25
+"deger": 20.23
 },
 "en_soguk": {
 "yil": 1996,
-"deger": 15.52
+"deger": 15.22
 },
 "egilim": {
 "egim": 0.54,
@@ -754,20 +754,20 @@
 "hucre_boylam": 39.625,
 "uzaklik_km": 16.0,
 "hucre_yon": "kuzeybatı",
-"bugun": 18.5,
-"normal": 17.82,
-"anomali": 0.68,
-"normal_p10": 16.12,
-"normal_p90": 19.48,
-"sira": 11,
+"bugun": 18.01,
+"normal": 17.68,
+"anomali": 0.33,
+"normal_p10": 15.94,
+"normal_p90": 19.15,
+"sira": 17,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2020,
-"deger": 20.53
+"yil": 2012,
+"deger": 20.63
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 14.94
+"deger": 14.92
 },
 "egilim": {
 "egim": 0.53,
@@ -790,20 +790,20 @@
 "hucre_boylam": 40.625,
 "uzaklik_km": 13.7,
 "hucre_yon": "kuzeydoğu",
-"bugun": 19.66,
-"normal": 18.06,
-"anomali": 1.6,
-"normal_p10": 16.53,
-"normal_p90": 19.67,
-"sira": 4,
+"bugun": 19.35,
+"normal": 17.92,
+"anomali": 1.43,
+"normal_p10": 16.48,
+"normal_p90": 19.44,
+"sira": 7,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 20.89
+"deger": 20.68
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 14.53
+"deger": 14.45
 },
 "egilim": {
 "egim": 0.55,
@@ -826,20 +826,20 @@
 "hucre_boylam": 41.375,
 "uzaklik_km": 4.7,
 "hucre_yon": "güneybatı",
-"bugun": 19.39,
-"normal": 18.24,
-"anomali": 1.15,
-"normal_p10": 16.84,
-"normal_p90": 19.83,
-"sira": 6,
+"bugun": 19.18,
+"normal": 18.09,
+"anomali": 1.09,
+"normal_p10": 16.7,
+"normal_p90": 19.64,
+"sira": 7,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 20.94
+"deger": 20.69
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 14.81
+"deger": 14.7
 },
 "egilim": {
 "egim": 0.55,
@@ -862,20 +862,20 @@
 "hucre_boylam": 28.875,
 "uzaklik_km": 17.4,
 "hucre_yon": "güneybatı",
-"bugun": 17.65,
-"normal": 16.52,
-"anomali": 1.13,
-"normal_p10": 14.92,
-"normal_p90": 18.02,
-"sira": 8,
+"bugun": 17.12,
+"normal": 16.41,
+"anomali": 0.71,
+"normal_p10": 14.85,
+"normal_p90": 17.98,
+"sira": 14,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.58
+"deger": 19.56
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 13.38
+"deger": 13.32
 },
 "egilim": {
 "egim": 0.52,
@@ -898,20 +898,20 @@
 "hucre_boylam": 27.625,
 "uzaklik_km": 14.3,
 "hucre_yon": "güneydoğu",
-"bugun": 17.44,
-"normal": 16.66,
-"anomali": 0.78,
-"normal_p10": 15.04,
-"normal_p90": 18.23,
-"sira": 14,
+"bugun": 16.53,
+"normal": 16.54,
+"anomali": -0.01,
+"normal_p10": 14.93,
+"normal_p90": 18.07,
+"sira": 23,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.59
+"deger": 19.64
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 13.92
+"deger": 13.86
 },
 "egilim": {
 "egim": 0.49,
@@ -934,20 +934,20 @@
 "hucre_boylam": 29.125,
 "uzaklik_km": 12.8,
 "hucre_yon": "batı",
-"bugun": 17.65,
-"normal": 16.48,
-"anomali": 1.17,
-"normal_p10": 14.89,
-"normal_p90": 18.01,
-"sira": 8,
+"bugun": 17.15,
+"normal": 16.36,
+"anomali": 0.79,
+"normal_p10": 14.8,
+"normal_p90": 17.92,
+"sira": 12,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.52
+"deger": 19.44
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 13.34
+"deger": 13.28
 },
 "egilim": {
 "egim": 0.51,
@@ -970,20 +970,20 @@
 "hucre_boylam": 28.875,
 "uzaklik_km": 0.7,
 "hucre_yon": "güneybatı",
-"bugun": 17.75,
-"normal": 16.43,
-"anomali": 1.32,
-"normal_p10": 14.93,
-"normal_p90": 18.03,
-"sira": 6,
+"bugun": 17.15,
+"normal": 16.31,
+"anomali": 0.84,
+"normal_p10": 14.81,
+"normal_p90": 17.99,
+"sira": 10,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.47
+"deger": 19.4
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 13.47
+"deger": 13.41
 },
 "egilim": {
 "egim": 0.52,
@@ -1006,20 +1006,20 @@
 "hucre_boylam": 27.625,
 "uzaklik_km": 14.2,
 "hucre_yon": "batı",
-"bugun": 17.46,
-"normal": 16.69,
-"anomali": 0.77,
-"normal_p10": 15.11,
-"normal_p90": 18.21,
-"sira": 15,
+"bugun": 16.56,
+"normal": 16.57,
+"anomali": -0.01,
+"normal_p10": 15.05,
+"normal_p90": 18.14,
+"sira": 25,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 19.72
+"deger": 19.71
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 14.09
+"deger": 13.9
 },
 "egilim": {
 "egim": 0.45,
@@ -1042,20 +1042,20 @@
 "hucre_boylam": 26.125,
 "uzaklik_km": 23.5,
 "hucre_yon": "batı",
-"bugun": 17.75,
-"normal": 17.77,
-"anomali": -0.02,
-"normal_p10": 16.32,
-"normal_p90": 19.16,
-"sira": 25,
+"bugun": 17.68,
+"normal": 17.69,
+"anomali": -0.01,
+"normal_p10": 16.24,
+"normal_p90": 19.07,
+"sira": 22,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 20.48
+"deger": 20.45
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 14.74
+"deger": 14.88
 },
 "egilim": {
 "egim": 0.28,
@@ -1078,20 +1078,20 @@
 "hucre_boylam": 25.875,
 "uzaklik_km": 7.5,
 "hucre_yon": "güney",
-"bugun": 17.87,
-"normal": 17.87,
-"anomali": -0.0,
-"normal_p10": 16.44,
-"normal_p90": 19.22,
-"sira": 24,
+"bugun": 17.71,
+"normal": 17.8,
+"anomali": -0.09,
+"normal_p10": 16.39,
+"normal_p90": 19.08,
+"sira": 23,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 20.56
+"deger": 20.51
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 14.86
+"deger": 15.0
 },
 "egilim": {
 "egim": 0.31,
@@ -1114,20 +1114,20 @@
 "hucre_boylam": 26.625,
 "uzaklik_km": 9.1,
 "hucre_yon": "kuzeybatı",
-"bugun": 18.43,
-"normal": 18.89,
-"anomali": -0.46,
-"normal_p10": 17.49,
-"normal_p90": 20.07,
-"sira": 27,
+"bugun": 18.46,
+"normal": 18.81,
+"anomali": -0.35,
+"normal_p10": 17.43,
+"normal_p90": 19.97,
+"sira": 28,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 21.16
+"deger": 20.91
 },
 "en_soguk": {
-"yil": 1988,
-"deger": 15.89
+"yil": 2006,
+"deger": 15.78
 },
 "egilim": {
 "egim": 0.35,
@@ -1150,20 +1150,20 @@
 "hucre_boylam": 26.625,
 "uzaklik_km": 12.7,
 "hucre_yon": "güneybatı",
-"bugun": 19.53,
-"normal": 19.32,
-"anomali": 0.21,
-"normal_p10": 17.78,
-"normal_p90": 20.48,
-"sira": 17,
+"bugun": 19.58,
+"normal": 19.25,
+"anomali": 0.33,
+"normal_p10": 17.76,
+"normal_p90": 20.36,
+"sira": 15,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 21.65
+"deger": 21.41
 },
 "en_soguk": {
-"yil": 1988,
-"deger": 16.21
+"yil": 2006,
+"deger": 16.28
 },
 "egilim": {
 "egim": 0.37,
@@ -1186,20 +1186,20 @@
 "hucre_boylam": 26.875,
 "uzaklik_km": 22.8,
 "hucre_yon": "batı",
-"bugun": 19.65,
-"normal": 19.5,
-"anomali": 0.15,
-"normal_p10": 17.91,
-"normal_p90": 20.69,
-"sira": 18,
+"bugun": 19.75,
+"normal": 19.42,
+"anomali": 0.33,
+"normal_p10": 17.87,
+"normal_p90": 20.57,
+"sira": 15,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 21.72
+"deger": 21.57
 },
 "en_soguk": {
 "yil": 1988,
-"deger": 16.42
+"deger": 16.74
 },
 "egilim": {
 "egim": 0.38,
@@ -1222,20 +1222,20 @@
 "hucre_boylam": 26.375,
 "uzaklik_km": 9.0,
 "hucre_yon": "kuzeydoğu",
-"bugun": 20.04,
-"normal": 19.51,
-"anomali": 0.53,
-"normal_p10": 18.04,
-"normal_p90": 20.68,
-"sira": 10,
+"bugun": 19.98,
+"normal": 19.44,
+"anomali": 0.54,
+"normal_p10": 17.98,
+"normal_p90": 20.6,
+"sira": 8,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2020,
-"deger": 21.64
+"yil": 2023,
+"deger": 21.66
 },
 "en_soguk": {
-"yil": 1988,
-"deger": 16.29
+"yil": 2006,
+"deger": 16.62
 },
 "egilim": {
 "egim": 0.37,
@@ -1258,20 +1258,20 @@
 "hucre_boylam": 27.125,
 "uzaklik_km": 12.0,
 "hucre_yon": "batı",
-"bugun": 20.42,
-"normal": 19.9,
-"anomali": 0.52,
+"bugun": 20.37,
+"normal": 19.83,
+"anomali": 0.54,
 "normal_p10": 18.52,
-"normal_p90": 21.0,
+"normal_p90": 20.95,
 "sira": 10,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 22.2
+"deger": 22.19
 },
 "en_soguk": {
-"yil": 2005,
-"deger": 17.53
+"yil": 1987,
+"deger": 17.34
 },
 "egilim": {
 "egim": 0.4,
@@ -1294,20 +1294,20 @@
 "hucre_boylam": 27.375,
 "uzaklik_km": 9.3,
 "hucre_yon": "doğu",
-"bugun": 20.94,
-"normal": 20.43,
-"anomali": 0.51,
+"bugun": 20.8,
+"normal": 20.36,
+"anomali": 0.44,
 "normal_p10": 18.93,
-"normal_p90": 21.61,
-"sira": 10,
+"normal_p90": 21.57,
+"sira": 13,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 23.11
+"deger": 22.99
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 18.04
+"deger": 17.81
 },
 "egilim": {
 "egim": 0.43,
@@ -1330,20 +1330,20 @@
 "hucre_boylam": 27.375,
 "uzaklik_km": 11.6,
 "hucre_yon": "kuzeybatı",
-"bugun": 21.28,
-"normal": 20.84,
-"anomali": 0.44,
+"bugun": 21.13,
+"normal": 20.78,
+"anomali": 0.35,
 "normal_p10": 19.34,
-"normal_p90": 21.92,
-"sira": 11,
+"normal_p90": 21.83,
+"sira": 15,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 23.67
+"deger": 23.52
 },
 "en_soguk": {
-"yil": 2005,
-"deger": 18.45
+"yil": 1987,
+"deger": 18.02
 },
 "egilim": {
 "egim": 0.43,
@@ -1366,20 +1366,20 @@
 "hucre_boylam": 27.625,
 "uzaklik_km": 12.0,
 "hucre_yon": "güneybatı",
-"bugun": 22.0,
-"normal": 21.88,
-"anomali": 0.12,
-"normal_p10": 20.54,
-"normal_p90": 23.03,
-"sira": 18,
+"bugun": 21.79,
+"normal": 21.81,
+"anomali": -0.02,
+"normal_p10": 20.45,
+"normal_p90": 22.94,
+"sira": 21,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 24.72
+"deger": 24.58
 },
 "en_soguk": {
 "yil": 2005,
-"deger": 19.31
+"deger": 19.3
 },
 "egilim": {
 "egim": 0.4,
@@ -1402,20 +1402,20 @@
 "hucre_boylam": 28.375,
 "uzaklik_km": 26.7,
 "hucre_yon": "güney",
-"bugun": 22.21,
-"normal": 22.47,
-"anomali": -0.26,
-"normal_p10": 21.16,
-"normal_p90": 23.72,
-"sira": 29,
+"bugun": 22.05,
+"normal": 22.39,
+"anomali": -0.34,
+"normal_p10": 21.09,
+"normal_p90": 23.57,
+"sira": 30,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.23
+"deger": 25.15
 },
 "en_soguk": {
 "yil": 1981,
-"deger": 20.58
+"deger": 20.32
 },
 "egilim": {
 "egim": 0.4,
@@ -1438,20 +1438,20 @@
 "hucre_boylam": 28.875,
 "uzaklik_km": 20.1,
 "hucre_yon": "batı",
-"bugun": 22.39,
-"normal": 22.71,
-"anomali": -0.32,
-"normal_p10": 21.44,
-"normal_p90": 24.04,
+"bugun": 22.28,
+"normal": 22.63,
+"anomali": -0.35,
+"normal_p10": 21.41,
+"normal_p90": 23.84,
 "sira": 30,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.26
+"deger": 25.27
 },
 "en_soguk": {
-"yil": 1981,
-"deger": 21.0
+"yil": 2006,
+"deger": 20.67
 },
 "egilim": {
 "egim": 0.38,
@@ -1474,20 +1474,20 @@
 "hucre_boylam": 29.625,
 "uzaklik_km": 8.4,
 "hucre_yon": "güney",
-"bugun": 22.69,
-"normal": 22.9,
-"anomali": -0.21,
-"normal_p10": 21.57,
-"normal_p90": 24.1,
-"sira": 26,
+"bugun": 22.61,
+"normal": 22.81,
+"anomali": -0.2,
+"normal_p10": 21.5,
+"normal_p90": 23.99,
+"sira": 31,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.32
+"deger": 25.27
 },
 "en_soguk": {
 "yil": 2006,
-"deger": 20.92
+"deger": 20.72
 },
 "egilim": {
 "egim": 0.38,
@@ -1510,20 +1510,20 @@
 "hucre_boylam": 30.625,
 "uzaklik_km": 6.4,
 "hucre_yon": "kuzeydoğu",
-"bugun": 23.19,
-"normal": 23.13,
-"anomali": 0.06,
-"normal_p10": 21.92,
-"normal_p90": 24.34,
-"sira": 20,
+"bugun": 23.23,
+"normal": 23.02,
+"anomali": 0.21,
+"normal_p10": 21.71,
+"normal_p90": 24.23,
+"sira": 19,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.37
+"deger": 25.33
 },
 "en_soguk": {
-"yil": 1991,
-"deger": 21.42
+"yil": 1987,
+"deger": 20.63
 },
 "egilim": {
 "egim": 0.39,
@@ -1546,20 +1546,20 @@
 "hucre_boylam": 30.625,
 "uzaklik_km": 6.7,
 "hucre_yon": "batı",
-"bugun": 23.25,
-"normal": 23.22,
-"anomali": 0.03,
-"normal_p10": 22.0,
-"normal_p90": 24.41,
-"sira": 21,
+"bugun": 23.3,
+"normal": 23.11,
+"anomali": 0.19,
+"normal_p10": 21.8,
+"normal_p90": 24.3,
+"sira": 19,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.38
+"deger": 25.32
 },
 "en_soguk": {
-"yil": 2005,
-"deger": 21.43
+"yil": 1987,
+"deger": 20.86
 },
 "egilim": {
 "egim": 0.38,
@@ -1582,20 +1582,20 @@
 "hucre_boylam": 31.875,
 "uzaklik_km": 14.6,
 "hucre_yon": "kuzeybatı",
-"bugun": 23.98,
-"normal": 23.42,
-"anomali": 0.56,
-"normal_p10": 22.11,
-"normal_p90": 24.78,
-"sira": 9,
+"bugun": 23.95,
+"normal": 23.32,
+"anomali": 0.63,
+"normal_p10": 21.96,
+"normal_p90": 24.66,
+"sira": 11,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2023,
-"deger": 25.77
+"deger": 25.6
 },
 "en_soguk": {
-"yil": 2005,
-"deger": 21.64
+"yil": 1987,
+"deger": 20.9
 },
 "egilim": {
 "egim": 0.37,
@@ -1618,20 +1618,20 @@
 "hucre_boylam": 32.875,
 "uzaklik_km": 6.9,
 "hucre_yon": "kuzeydoğu",
-"bugun": 24.19,
-"normal": 23.65,
-"anomali": 0.54,
-"normal_p10": 22.54,
-"normal_p90": 24.81,
+"bugun": 24.22,
+"normal": 23.54,
+"anomali": 0.68,
+"normal_p10": 22.44,
+"normal_p90": 24.68,
 "sira": 8,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 26.02
+"deger": 25.99
 },
 "en_soguk": {
-"yil": 1988,
-"deger": 21.95
+"yil": 1987,
+"deger": 21.76
 },
 "egilim": {
 "egim": 0.36,
@@ -1654,20 +1654,20 @@
 "hucre_boylam": 34.625,
 "uzaklik_km": 19.5,
 "hucre_yon": "güney",
-"bugun": 23.81,
-"normal": 23.9,
-"anomali": -0.09,
-"normal_p10": 22.81,
-"normal_p90": 24.97,
-"sira": 22,
+"bugun": 23.77,
+"normal": 23.78,
+"anomali": -0.01,
+"normal_p10": 22.69,
+"normal_p90": 24.81,
+"sira": 20,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 26.64
+"deger": 26.52
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 21.75
+"deger": 21.6
 },
 "egilim": {
 "egim": 0.37,
@@ -1690,20 +1690,20 @@
 "hucre_boylam": 35.375,
 "uzaklik_km": 21.7,
 "hucre_yon": "güney",
-"bugun": 24.15,
-"normal": 23.96,
-"anomali": 0.19,
-"normal_p10": 22.81,
-"normal_p90": 24.99,
-"sira": 18,
+"bugun": 24.05,
+"normal": 23.84,
+"anomali": 0.21,
+"normal_p10": 22.71,
+"normal_p90": 24.84,
+"sira": 15,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 26.31
+"deger": 26.34
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 21.86
+"deger": 21.73
 },
 "egilim": {
 "egim": 0.39,
@@ -1726,20 +1726,20 @@
 "hucre_boylam": 36.125,
 "uzaklik_km": 5.6,
 "hucre_yon": "kuzeybatı",
-"bugun": 24.36,
-"normal": 24.12,
-"anomali": 0.24,
-"normal_p10": 22.93,
-"normal_p90": 25.15,
-"sira": 18,
+"bugun": 24.4,
+"normal": 23.98,
+"anomali": 0.42,
+"normal_p10": 22.83,
+"normal_p90": 25.03,
+"sira": 11,
 "yil_sayisi": 46,
 "en_sicak": {
-"yil": 2023,
-"deger": 26.31
+"yil": 2020,
+"deger": 26.18
 },
 "en_soguk": {
 "yil": 1987,
-"deger": 22.23
+"deger": 21.99
 },
 "egilim": {
 "egim": 0.39,
@@ -1762,20 +1762,20 @@
 "hucre_boylam": 35.875,
 "uzaklik_km": 7.0,
 "hucre_yon": "kuzeybatı",
-"bugun": 24.26,
-"normal": 24.06,
-"anomali": 0.2,
-"normal_p10": 22.94,
-"normal_p90": 25.03,
-"sira": 17,
+"bugun": 24.2,
+"normal": 23.95,
+"anomali": 0.25,
+"normal_p10": 22.8,
+"normal_p90": 24.96,
+"sira": 14,
 "yil_sayisi": 46,
 "en_sicak": {
 "yil": 2020,
-"deger": 26.18
+"deger": 26.34
 },
 "en_soguk": {
-"yil": 1988,
-"deger": 22.49
+"yil": 2013,
+"deger": 22.08
 },
 "egilim": {
 "egim": 0.37,
